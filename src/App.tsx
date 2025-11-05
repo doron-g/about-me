@@ -2,22 +2,22 @@ import { Outlet, Link } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="max-w-3xl mx-auto p-4">
-      <h1 className="text-4xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Doron Gescheidt</h1>
+    <div className="max-w-3xl mx-auto p-4 text-rick-green">
+      <h1 className="text-6xl font-bold mb-8 text-center text-portal-blue">Wubba Lubba Dub Dub!</h1>
       
       <nav className="mb-8">
-        <ul className="flex gap-4">
+        <ul className="flex justify-center gap-8">
           <li>
-            <Link to="/" className="text-gray-800 hover:underline">Home</Link>
+            <Link to="/" className="text-morty-yellow hover:text-rick-green">Home</Link>
           </li>
           <li>
-            <Link to="/resume" className="text-gray-800 hover:underline">Resume</Link>
+            <Link to="/resume" className="text-morty-yellow hover:text-rick-green">Resume</Link>
           </li>
           <li>
-            <Link to="/contact-info" className="text-gray-800 hover:underline">Contact Info</Link>
+            <Link to="/contact-info" className="text-morty-yellow hover:text-rick-green">Contact Info</Link>
           </li>
           <li>
-            <Link to="/more-cats" className="text-gray-800 hover:underline">More Cats</Link>
+            <Link to="/more-characters" className="text-morty-yellow hover:text-rick-green">More Characters</Link>
           </li>
         </ul>
       </nav>

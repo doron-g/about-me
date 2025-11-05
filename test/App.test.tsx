@@ -10,7 +10,7 @@ describe('App', () => {
         <App />
       </BrowserRouter>
     );
-    expect(screen.getByText('Doron Gescheidt')).toBeTruthy();
+    expect(screen.getByText('Wubba Lubba Dub Dub!')).toBeTruthy();
   });
 
   it('renders navigation links', () => {
@@ -22,6 +22,7 @@ describe('App', () => {
     expect(screen.getByRole('link', { name: /home/i })).toBeTruthy();
     expect(screen.getByRole('link', { name: /resume/i })).toBeTruthy();
     expect(screen.getByRole('link', { name: /contact info/i })).toBeTruthy();
+    expect(screen.getByRole('link', { name: /more characters/i })).toBeTruthy();
   });
 
   it('navigation links have correct href attributes', () => {
@@ -33,5 +34,6 @@ describe('App', () => {
     expect(screen.getByRole('link', { name: /home/i }).getAttribute('href')).toBe('/');
     expect(screen.getByRole('link', { name: /resume/i }).getAttribute('href')).toBe('/resume');
     expect(screen.getByRole('link', { name: /contact info/i }).getAttribute('href')).toBe('/contact-info');
+    expect(screen.getByRole('link', { name: /more characters/i }).getAttribute('href')).toBe('/more-characters');
   });
 });

@@ -1,29 +1,19 @@
-import CatGallery from './CatGallery'
-import CatVideo from './CatVideo'
-
 function Home() {
   return (
     <>
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">About Me</h2>
-        <p className="text-lg leading-relaxed">
-          I am a passionate professional dedicated to excellence in my field. 
-          With a strong background in technology and innovation, I strive to make a positive impact through my work. 
-          I enjoy learning new skills and tackling challenging problems that help me grow both personally and professionally.
+        <h2 className="text-4xl font-semibold mb-4 text-portal-blue">About Me? *urp* You mean about this genius?</h2>
+        <p className="text-lg leading-relaxed text-rick-green">
+          Listen, you can't just slap a label on me. I'm not some "passionate professional." I'm a goddamn force of nature, a whirlwind of brilliance and chaos. I build things, I break things, I travel through dimensions before breakfast. If you can't handle the sheer magnitude of my intellect, then get the hell out of my reality.
         </p>
       </section>
 
       <section>
-        <h2 className="text-2xl font-semibold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Work Experience</h2>
-        <p className="text-lg leading-relaxed">
-          Throughout my career, I have worked on diverse projects that have honed my expertise and problem-solving abilities. 
-          I have collaborated with talented teams to deliver high-quality solutions that meet client needs and exceed expectations. 
-          My experience has taught me the value of continuous learning, adaptability, and effective communication in achieving success.
+        <h2 className="text-4xl font-semibold mb-4 text-portal-blue">Work Experience? Try "Interdimensional Mayhem"</h2>
+        <p className="text-lg leading-relaxed text-rick-green">
+          You think your "diverse projects" are impressive? I've toppled galactic governments! I've stared into the abyss and it blinked first. My "career" is a trail of cosmic dust and shattered paradigms. I don't "collaborate," I dominate. And as for "continuous learning," I'm the one writing the textbook, pal.
         </p>
       </section>
-
-      <CatGallery />
-      <CatVideo />
     </>
   )
 }
