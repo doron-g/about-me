@@ -16,6 +16,9 @@ function App() {
           <li>
             <Link to="/contact-info" className="text-gray-800 hover:underline">Contact Info</Link>
           </li>
+          <li>
+            <Link to="/more-cats" className="text-gray-800 hover:underline">More Cats</Link>
+          </li>
         </ul>
       </nav>
 
