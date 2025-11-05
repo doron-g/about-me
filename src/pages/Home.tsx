@@ -1,3 +1,6 @@
+import CatGallery from './CatGallery'
+import CatVideo from './CatVideo'
+
 function Home() {
   return (
     <>
@@ -18,6 +21,9 @@ function Home() {
           My experience has taught me the value of continuous learning, adaptability, and effective communication in achieving success.
         </p>
       </section>
+
+      <CatGallery />
+      <CatVideo />
     </>
   )
 }
