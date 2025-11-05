@@ -5,6 +5,6 @@ import Home from '../../src/pages/Home';
 describe('Home', () => {
   it('renders the About Me section', () => {
     render(<Home />);
-    expect(screen.getByText('About Me')).toBeTruthy();
+    expect(screen.getByText('About Me? *urp* You mean about this genius?')).toBeTruthy();
   });
 });

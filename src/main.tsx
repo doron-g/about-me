@@ -6,7 +6,7 @@ import App from './App.tsx'
 import Home from './pages/Home.tsx'
 import Resume from './pages/Resume.tsx'
 import ContactInfo from './pages/ContactInfo.tsx'
-import MoreCats from './pages/MoreCats.tsx'
+import MoreCharacters from './pages/MoreCharacters.tsx'
 
 const router = createHashRouter([
   {
@@ -26,8 +26,8 @@ const router = createHashRouter([
         element: <ContactInfo />,
       },
       {
-        path: 'more-cats',
-        element: <MoreCats />,
+        path: 'more-characters',
+        element: <MoreCharacters />,
       },
     ],
   },
